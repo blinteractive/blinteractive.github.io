@@ -48,7 +48,8 @@ body, html {
 <button class="tablink" onclick="openPage('Home', this, 'grey')">Whitehouse 360</button>
 <button class="tablink" onclick="openPage('News', this, 'grey')" id="defaultOpen">AR</button>
 <button class="tablink" onclick="openPage('Contact', this, 'grey')">Hand tracking</button>
-<button class="tablink" onclick="openPage('About', this, 'grey')">About</button>
+<button class="tablink" onclick="openPage('About', this, 'grey')">Story</button>
+<button class="tablink" onclick="openPage('Image', this, 'grey')">Blinx Logo</button>
 
 <div id="Home" class="tabcontent">
   <h3>Whitehouse 360</h3>
@@ -84,6 +85,15 @@ body, html {
   
   <p>User speaks.</p>
 </div>
+
+  <div id="Image" class="tabcontent">
+  <h3>Blinx Logo</h3>
+      <a href="https://playcanv.as/p/bMrSnKWO/" onclick="window.open(this.href); return false;">Click here to open in a popup window</a> 
+
+  
+  <p>Image tracking Blinx logo </p>
+</div>
+
 
 <script>
 function openPage(pageName,elmnt,color) {
